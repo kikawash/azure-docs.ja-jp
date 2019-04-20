@@ -1,6 +1,6 @@
 ---
-title: SSL 終了でのアプリケーション ゲートウェイの作成 - Azure CLI
-description: Azure CLI を使用して、アプリケーション ゲートウェイを作成し、SSL 終了の証明書を追加する方法について説明します。
+title: SSL ターミネーションでのアプリケーション ゲートウェイの作成 - Azure CLI
+description: Azure CLI を使用して、アプリケーション ゲートウェイを作成し、SSL ターミネーションの証明書を追加する方法について説明します。
 services: application-gateway
 author: vhorne
 manager: jpconnock
@@ -17,9 +17,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2019
 ms.locfileid: "55753080"
 ---
-# <a name="tutorial-create-an-application-gateway-with-ssl-termination-using-the-azure-cli"></a>チュートリアル:Azure CLI を使用して SSL 終了でアプリケーション ゲートウェイを作成する
+# <a name="tutorial-create-an-application-gateway-with-ssl-termination-using-the-azure-cli"></a>チュートリアル:Azure CLI を使用して SSL ターミネーションでアプリケーション ゲートウェイを作成する
 
-Azure CLI を使用して、バックエンド サーバーに[仮想マシン スケール セット](../virtual-machine-scale-sets/virtual-machine-scale-sets-overview.md)を使用する [SSL 終了](ssl-overview.md)の証明書で、[アプリケーション ゲートウェイ](overview.md)を作成することができます。 この例では、アプリケーション ゲートウェイの既定のバックエンド プールに追加された 2 つの仮想マシン インスタンスがスケール セットに含まれています。
+Azure CLI を使用して、バックエンド サーバーに[仮想マシン スケール セット](../virtual-machine-scale-sets/virtual-machine-scale-sets-overview.md)を使用する [SSL ターミネーション](ssl-overview.md)の証明書で、[アプリケーション ゲートウェイ](overview.md)を作成することができます。 この例では、アプリケーション ゲートウェイの既定のバックエンド プールに追加された 2 つの仮想マシン インスタンスがスケール セットに含まれています。
 
 このチュートリアルでは、以下の内容を学習します。
 
